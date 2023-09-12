@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2%;
+}
+h2{
+    font-size: 17px;
+    color: blue;
+}
+input[type=text], input[type=password], input[type=submit] 
+{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0px 16px 0px;
+    resize: vertical;
+}
+.container {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 90%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 350px;
+    margin:0 auto;
+  }
+  #image{
+    display: flex;
+    float: left;
+    margin-left: 88px;
+  }
+  .tof{
+    padding-left: 207px;
+    width: 260px;
+    height: 452px;
+    margin-top: -29px;
+  }
+  .paraOr{
+    color: #007BFF;
+    text-align: center;
+  }
+  .login{
+    background-color: #007BFF;
+    color: white;
+  }
+  .register{
+    border-color: 5px solid #007BFF;
+    background-color: white;
+    color:#007BFF; 
+  }
+  .recap{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 210px;
+    width: 200px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .parah1{
+    color: #F1A741;
+    font-size: 10px;
+    
+  }
+  .validation{
+    display: flex;
+  }
+  .divcheck{
+      display: inline-block;
+    }
+    span{
+      color: #007BFF;
+      margin-left: 160px;
+
+    }
+    .divtext{
+       background-color: white;
+       position: relative;
+       top: 300px;
+       width: 15%;
+       height: 70px;
+       margin-left: 22%;
+    }
+    .text{
+      font-size: x-small;
+    }
